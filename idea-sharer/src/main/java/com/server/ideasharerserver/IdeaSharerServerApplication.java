@@ -1,12 +1,12 @@
-package com.server.chatroomserver;
+package com.server.ideasharerserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChatroomServerApplication {
+public class IdeaSharerServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ChatroomServerApplication.class, args);
+        SpringApplication.run(IdeaSharerServerApplication.class, args);
     }
 }
