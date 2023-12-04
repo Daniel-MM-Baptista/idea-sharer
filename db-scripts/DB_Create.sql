@@ -45,6 +45,7 @@ CREATE TABLE `theme` (
     `tertiaryColor` CHAR(7) NOT NULL,
     `textColor` CHAR(7) NOT NULL,
     `hoverColor` CHAR(7) NOT NULL,
+    `creationDate` DATE NOT NULL,
     PRIMARY KEY (`id`),
     FOREIGN KEY (`userId`) REFERENCES `user` (`id`) ON DELETE CASCADE
 );
